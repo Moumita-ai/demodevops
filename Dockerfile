@@ -1,4 +1,4 @@
-From:Amazon Linux
+From: CentOS
 
 MAINTAINER:mou.bhowmick4@gmail.com
 
