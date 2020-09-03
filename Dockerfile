@@ -1,4 +1,4 @@
-From CentOS
+From centOS
 
 MAINTAINER mou.bhowmick4@gmail.com
 
