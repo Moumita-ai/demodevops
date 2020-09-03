@@ -1,6 +1,6 @@
-From: Linux
+From:Amazon Linux
 
-MAINTAINER: mou.bhowmick4@gmail.com
+MAINTAINER:mou.bhowmick4@gmail.com
 
 RUN yum update -y
 RUN yum install httpd php php-mysql mysql -y
