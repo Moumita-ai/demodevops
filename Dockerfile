@@ -1,4 +1,4 @@
-From centOS
+FROM centOS
 
 MAINTAINER mou.bhowmick4@gmail.com
 
