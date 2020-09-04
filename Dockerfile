@@ -1,4 +1,4 @@
-FROM centOS
+FROM amazonlinux
 
 MAINTAINER mou.bhowmick4@gmail.com
 
