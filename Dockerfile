@@ -13,7 +13,7 @@ RUN tar -zxvf wordpress-5.1.1.tar.gz
 RUN cp -r wordpress/* /var/www/html/
 RUN rm -rf wordpress
 RUN rm -rf wordpress-5.1.1.tar.gz
-RUN chmod -R apache:apache wp-content
+RUN chown -R apache:apache wp-content
 
 CMD ["/usr/bin/httpd", "-D", "FOREGROUND"]
 
