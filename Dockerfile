@@ -3,6 +3,7 @@ FROM amazonlinux
 MAINTAINER mou.bhowmick4@gmail.com
 
 RUN yum update -y
+RUN yum install -y wget
 RUN yum install httpd php php-mysql mysql -y
 RUN cd /var/www/html
 
